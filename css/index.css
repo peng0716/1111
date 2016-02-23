@@ -823,8 +823,8 @@ html,body{
 .a5-botLeft li img{
     position: absolute;
     top:0;
-    -webkit-animation: myTop-Bot 5s linear 2s 2 both;
-    animation: myTop-Bot 5s linear 2s 2 both;
+    -webkit-animation: myTop-Bot 3s linear 2s 2 both;
+    animation: myTop-Bot 3s linear 2s 2 both;
 }
 @-webkit-keyframes myTop-Bot {
     25%,75%{
@@ -906,9 +906,9 @@ html,body{
         -webkit-transform: translate(0,0%);
     }
 }
-#a5 .a5-botRight li p:nth-of-type(4){
-    -webkit-animation: hello 6s linear both;
-}
+/*#a5 .a5-botRight li p:nth-of-type(4){*/
+    /*-webkit-animation: hello 6s linear both;*/
+/*}*/
 @-webkit-keyframes hello{
     0%{
         -webkit-transform: translate(0,200%);
@@ -955,14 +955,14 @@ html,body{
 }
 #a5 .a5-botRight li p:nth-of-type(4){
     top:48%;
-    line-height: 40px;
-    -webkit-transition-delay: 4s;
-    transition-delay: 4s;
+    /*line-height: 40px;*/
+    -webkit-transition-delay: 2s;
+    transition-delay: 2s;
 }
 #a5 .a5-botRight li p:nth-of-type(5){
-    top:72%;
-    -webkit-transition-delay: 5s;
-    transition-delay: 5s;
+    top:60%;
+    -webkit-transition-delay: 2.5s;
+    transition-delay: 2.5s;
 }
 /*-------------------第六张----------------------*/
 .a6-content{
